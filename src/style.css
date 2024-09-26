@@ -139,8 +139,15 @@ hr {
   }
 }
 @media (min-width: 768px) {
+  body {
+    padding: 4.09em 7.2em !important;
+  }
+  .b-nav {
+    padding-bottom: 2.75em;
+  }
   .web3 {
     margin: 0 0 1em;
+    padding-bottom: 1.2em;
   }
   .navbar-nav {
     gap: 24px;
@@ -186,7 +193,8 @@ hr {
     width: 98% !important;
   }
   .h1-text {
-    width: 333px;
+    width: 353px;
+    padding-right: 10px;
   }
   .updates h2 {
     font-size: 40px;
@@ -199,7 +207,8 @@ hr {
     max-width: 302px;
   }
   h1 {
-    font-size: 55px;
-    width: 295px;
+    font-size: 56px;
+    line-height: 56px;
+    font-weight: 800;
   }
 }
