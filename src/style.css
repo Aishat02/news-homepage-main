@@ -11,6 +11,7 @@
 }
 body {
   margin: 1em auto 0;
+  width: 375px !important;
   min-height: 100vh;
   font-family: "Inter", sans-serif;
   font-size: 15px;
@@ -140,7 +141,8 @@ hr {
 }
 @media (min-width: 768px) {
   body {
-    padding: 4.09em 7.2em !important;
+    width: 720px !important;
+    margin: 5.1em auto 0;
   }
   .b-nav {
     padding-bottom: 2.75em;
@@ -184,6 +186,9 @@ hr {
   }
 }
 @media (min-width: 1024px) {
+  body {
+    width: 1155px !important;
+  }
   .updates {
     max-width: 360px;
     padding: 1.8em 1.3em 1.15em 1.5em;
