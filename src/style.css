@@ -85,7 +85,6 @@ h1 {
   font-weight: 700;
 }
 .updates h3,
-.updates p,
 hr {
   color: var(--Off-white);
 }
@@ -96,6 +95,7 @@ hr {
   letter-spacing: 0.65px;
 }
 .updates p {
+  color: var(--Darkgrayishblue);
   line-height: 26px;
   margin-bottom: 28px;
 }
@@ -119,6 +119,7 @@ hr {
   font-size: 15px; /*16px*/
   line-height: 26px; /*1.7em*/
   margin-bottom: 0 !important;
+  color: var(--Darkgrayishblue);
 }
 .px-24 {
   padding-left: 0;
