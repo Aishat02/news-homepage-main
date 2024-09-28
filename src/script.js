@@ -9,3 +9,11 @@ function showContainer() {
     .querySelectorAll(".hide")
     .forEach((element) => (element.style.display = ""));
 }
+
+function checkScreenWidth() {
+  if (window.innerWidth > 768) {
+    showContainer();
+  }
+}
+window.addEventListener("resize", checkScreenWidth);
+checkScreenWidth();
